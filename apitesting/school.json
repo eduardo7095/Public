@@ -1,0 +1,214 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "age": 20,
+      "email": "johndoe@example.com",
+      "courses": [
+        {
+          "course_id": 101,
+          "course_name": "Introduction to Computer Science",
+          "instructor": "Dr. Smith",
+          "credits": 3
+        },
+        {
+          "course_id": 102,
+          "course_name": "Calculus I",
+          "instructor": "Prof. Johnson",
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "age": 22,
+      "email": "janesmith@example.com",
+      "courses": [
+        {
+          "course_id": 103,
+          "course_name": "English Literature",
+          "instructor": "Dr. Brown",
+          "credits": 3
+        },
+        {
+          "course_id": 104,
+          "course_name": "Physics I",
+          "instructor": "Dr. Green",
+          "credits": 4
+        },
+        {
+          "course_id": 105,
+          "course_name": "World History",
+          "instructor": "Prof. White",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "id": "4254",
+      "name": "Ramon Aldana",
+      "age": 21,
+      "email": "alicejohnson@example.com",
+      "courses": [
+        {
+          "course_id": 106,
+          "course_name": "Biology 101",
+          "instructor": "Dr. Adams",
+          "credits": 3
+        },
+        {
+          "course_id": 107,
+          "course_name": "Introduction to Psychology",
+          "instructor": "Prof. Williams",
+          "credits": 3
+        },
+        {
+          "course_id": 108,
+          "course_name": "Statistics",
+          "instructor": "Dr. Lee",
+          "credits": 4
+        }
+      ]
+    },
+    {
+      "id": "9512",
+      "name": "Ramon Aldana",
+      "age": 55,
+      "email": "reab@example.com",
+      "courses": [
+        {
+          "course_id": 101,
+          "course_name": "Introduction to Computer Science",
+          "instructor": "Dr. Smith",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "id": "f553",
+      "name": "Ramon Aldana",
+      "age": 55,
+      "email": "reab@example.com",
+      "courses": [
+        {
+          "course_id": 101,
+          "course_name": "Introduction to Computer Science",
+          "instructor": "Dr. Smith",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "id": "4158",
+      "name": "Ramon Aldana",
+      "age": 55,
+      "email": "reab@example.com",
+      "courses": [
+        {
+          "course_id": 101,
+          "course_name": "Introduction to Computer Science",
+          "instructor": "Dr. Smith",
+          "credits": 3
+        }
+      ]
+    }
+  ],
+  "teachers": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "subjects": [
+        "Mathematics",
+        "Physics"
+      ],
+      "classes": [
+        {
+          "class_id": 101,
+          "class_name": "Algebra I",
+          "schedule": {
+            "day": "Monday",
+            "time": "09:00 - 10:30 AM"
+          },
+          "students": [
+            {
+              "student_id": 1001,
+              "name": "Alice Smith"
+            },
+            {
+              "student_id": 1002,
+              "name": "Bob Johnson"
+            }
+          ]
+        },
+        {
+          "class_id": 102,
+          "class_name": "Physics 101",
+          "schedule": {
+            "day": "Wednesday",
+            "time": "11:00 - 12:30 PM"
+          },
+          "students": [
+            {
+              "student_id": 1003,
+              "name": "Charlie Brown"
+            },
+            {
+              "student_id": 1004,
+              "name": "Diana Prince"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "subjects": [
+        "English",
+        "History"
+      ],
+      "classes": [
+        {
+          "class_id": 103,
+          "class_name": "English Literature",
+          "schedule": {
+            "day": "Tuesday",
+            "time": "10:00 - 11:30 AM"
+          },
+          "students": [
+            {
+              "student_id": 1005,
+              "name": "Eve Adams"
+            },
+            {
+              "student_id": 1006,
+              "name": "Frank Wright"
+            }
+          ]
+        },
+        {
+          "class_id": 104,
+          "class_name": "World History",
+          "schedule": {
+            "day": "Thursday",
+            "time": "01:00 - 02:30 PM"
+          },
+          "students": [
+            {
+              "student_id": 1007,
+              "name": "George Miller"
+            },
+            {
+              "student_id": 1008,
+              "name": "Hannah Lee"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
